@@ -1,0 +1,95 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #2d89ef, #6a11cb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #f8f8f8;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.qr-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.download {
+  background: #27ae60;
+  color: white;
+}
+
+.copy {
+  background: #f39c12;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 12px;
+}
